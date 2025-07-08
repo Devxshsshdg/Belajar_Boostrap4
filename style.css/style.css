@@ -1,0 +1,36 @@
+body {
+  background-image: 
+    linear-gradient(#e0e0e0 1px, transparent 1px),
+    linear-gradient(90deg, #e0e0e0 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 180px;
+  width: 100%;
+}
+
+.card-high {
+  height: 400px;
+}
+
+.card-mid {
+  height: 340px;
+}
+
+.card-low {
+  height: 300px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
